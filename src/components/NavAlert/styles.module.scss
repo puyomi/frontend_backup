@@ -1,0 +1,29 @@
+@import "../../config/variables";
+
+.container {
+  height: 32px;
+
+  background-color: #e8e9e9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .inner {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: $max-page-width;
+    .alert {
+      font-size: 11px;
+      color: #494949;
+      u {
+        font-weight: bold;
+      }
+    }
+    
+    .red {
+      font-size: 11px;
+      color: #10609b;
+      font-weight: 600;
+    }
+  }
+}
